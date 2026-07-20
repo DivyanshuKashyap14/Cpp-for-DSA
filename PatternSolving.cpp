@@ -111,3 +111,62 @@
 //         i+=1;
 //     }
 // }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     while (i<=n){
+//         int j=1;                for 12345
+//         while(j<=n){                12345
+//             cout<<j;                12345 and so on 
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     int count=1;
+//     while(i<=n){                    for 1 2 3 4 
+//         int j=1;                        5 6 7 8
+//         while(j<=n){                    9 10 11 12 
+//             cout<<count<<" ";           13 14 15 16 and so on
+//             count+=1;
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     while(i<=n){
+//         int j=1;
+//         while(j<=i){              for *
+//             cout<<"*";                **
+//             j+=1;                     *** and so on 
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
