@@ -230,4 +230,108 @@
 //         cout<<endl;
 //         i+=1;
 //     }
-// }                  
+// }  
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     while(i<=n){
+//         int j=1;
+//         while(j<=n){
+//         char ch='A'+i-1;
+//         cout<<ch<<" ";
+//         j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     while(i<=n){
+//         int j=1;
+//         while(j<=n){
+//         char ch='A'+j-1;
+//         cout<<ch<<" ";
+//         j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     int count=1;
+//     char value='A';
+//     while(i<=n){                      for A B C D
+//         int j=1;                          E F G H
+//         while(j<=n){                      I J K L
+//             char start='A';               M N O P and so on   
+//             cout<<value<<" ";           
+//             value+=1;
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;                             for A B C D
+//     cin>>n;                                B C D E 
+//     int i=1;                               C D E F
+//     while(i<=n){                           D E F G and so on
+//         int j=1;
+//         while(j<=n){
+//             char start='A'+i+j-2;
+//             cout<<start<<" ";
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     while(i<=n){
+//         int j=1;
+//         char start='A'+n-i;
+//         while(j<=i){
+//             cout<<start<<" ";
+//             start+=1;
+//             j++;
+//         }
+//         cout<<endl;
+//         i++;
+//     }
+// }
