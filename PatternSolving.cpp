@@ -170,3 +170,64 @@
 //         i+=1;
 //     }
 // }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;                     
+//     while(i<=n){
+//         int j=1;
+//         while(j<=i){
+//             cout<<i;
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     int count=1;
+//     while(i<=n){               
+//         int j=1;                       
+//         while(j<=i){                     
+//             cout<<count<<" ";           
+//             count+=1;
+//             j+=1;
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int i=1;
+//     int count=1;
+//     while(i<=n){               
+//         int j=1;
+//         int value=i;                        // when we have to print
+//         while(j<=i){                    1
+//             cout<<value<<" ";           23
+//             value+=1;                   345 
+//             j+=1;                       4567
+//         }
+//         cout<<endl;
+//         i+=1;
+//     }
+// }                  
