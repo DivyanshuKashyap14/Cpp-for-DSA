@@ -20,3 +20,5 @@ int main()
     cout<<(i--)<<endl;
     cout<<(--i)<<endl;
 }
+
+//bitwise operators usage
