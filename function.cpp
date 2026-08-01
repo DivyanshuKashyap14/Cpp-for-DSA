@@ -23,7 +23,7 @@
 
 // #include<iostream>
 // using namespace std;
-// int factorial(int n){
+// int fact(int n){
 //     int fact=1;
 //     for (int i=1;i<=n;i++){
 //         fact=fact*i;
@@ -38,7 +38,9 @@
 // }
 // int main(){
 //     int n,r; 
-// }
+//     cin>>n>>r;
+//     cout<<"answer is "<<nCr(n,r)<<endl;
+// } 
 
 
 // #include<iostream>
@@ -59,4 +61,20 @@
 //     return 0;
 // }
 
+
+// #include<iostream>
+// using namespace std;
+// void counting(int n){
+//     for(int i=1;i<=n;i++){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+// int main()                 // counting the numbers
+// {
+//     int n;
+//     cin>>n;
+//     counting(n);
+//     return 0;
+// }
 
