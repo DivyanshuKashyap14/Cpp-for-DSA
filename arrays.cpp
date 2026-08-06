@@ -115,3 +115,56 @@
 
 //     return 0;                               SUM OF AN ARRAY
 // }
+
+
+
+// #include<iostream>
+// #include<math.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     bool isprime=true;
+//     if(n<=1){
+//         return false;
+//     }
+//     else{
+//         for(int i=2;i<=pow(n,0.5);i++){
+//             if(n%i==0){
+//                 isprime= false;
+//                 break;
+//             }
+//         }
+//     }
+//     if(isprime){
+//         cout<<"is prime"<<endl;
+//     }
+//     else{
+//         cout<<"not prime ";
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int getsum(int arr[],int n){
+//     int sum=0;
+//     for(int i=0;i<n;i++){
+//         sum+=arr[i];
+//     }
+//     return sum;
+// }
+// int main()
+// {
+//     int n;
+//     cout<<"Enter the number of elements: ";
+//     cin>>n;
+//     int arr[n];
+//     cout<<"Enter the elements in the array: ";
+//     for(int i=0;i<n;i++){
+//         cin>>arr[i];
+//     }
+//     cout<<"Sum= "<<getsum(arr,n);                        SUM OF THE ELEMENTS IN THE ARRAY
+//     return 0;
+// }
