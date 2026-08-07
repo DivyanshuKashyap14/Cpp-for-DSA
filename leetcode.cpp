@@ -126,3 +126,23 @@
         
 //     }
 // };
+
+
+//268. FIND THE MISSING NUMBER
+
+// class Solution {
+// public:
+//     int missingNumber(vector<int>& nums) {
+//         int xor1=0;
+//         for(int i=0;i<nums.size();i++){
+//             xor1=xor1^i+1;
+//         }
+//         int xor2=0;
+//         for(int i=0;i<nums.size();i++){
+//             xor2=xor2^nums[i];
+//         }
+//         int ans= xor1^xor2;
+//         return ans;
+        
+//     }
+// };
