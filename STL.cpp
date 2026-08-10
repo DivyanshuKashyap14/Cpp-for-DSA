@@ -40,3 +40,20 @@
 // }                           LIST IN STL
 
 
+// #include<iostream>
+// #include<stack>
+// using namespace std;
+// int main()
+// {
+//     stack<string>s;
+//     s.push("div");
+//     s.push("nish");                          ///// LIFO
+//     s.push("dabi");
+//     cout<<"top element: "<<s.top()<<endl;
+//     s.pop();
+//     cout<<"size of stack: "<<s.size()<<endl;
+//     cout<<"empty or not: "<<s.empty()<<endl;
+// }                                            /////////STACK IN STL//////////
+
+
+//SIMILAR FOR QUEUE, BUT QUEUE FOLLOWS FIRST IN FIRST OUT
