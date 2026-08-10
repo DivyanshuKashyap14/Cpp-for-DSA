@@ -89,3 +89,32 @@
 //     cout<<*it<<" ";
 //  } 
 // }                               //SETS IN STL
+
+
+
+// #include<iostream>
+// #include<map>
+// using namespace std;
+// int main()
+// {
+//     map<int,string>m;
+//     m[1]="Div";
+//     m[5]="dabi";
+//     m[2]="nish";
+//     m.insert({5,"rydi"});
+//     cout<<"before erase: "<<endl;
+//     for(auto i:m){
+//         cout<<i.first<<" "<<i.second<<endl;
+//     }
+//     cout<<"finding 11: "<<m.count(11)<<endl;
+//     cout<<"after erase: "<<endl;
+//     for(auto i:m){
+//         cout<<i.first<<" "<<i.second<<endl;
+//     }
+//     auto it=m.find(5);
+//     for(auto i=it;i!=m.end();it++){
+//         cout<<(*i).first<<endl;
+//     }
+// }                                     MAP IN STL
+
+
